@@ -8,4 +8,4 @@ try:
     print(id)
     print(text)
 finally:
-        GPIO.cleanup()
+    GPIO.cleanup()
